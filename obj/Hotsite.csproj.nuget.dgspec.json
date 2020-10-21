@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\projetohotsite\\Hotsite.csproj": {}
+    "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\exercicio-1-Alex-Ferreira-Santos\\projetohotsite\\Hotsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\projetohotsite\\Hotsite.csproj": {
+    "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\exercicio-1-Alex-Ferreira-Santos\\projetohotsite\\Hotsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\projetohotsite\\Hotsite.csproj",
+        "projectUniqueName": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\exercicio-1-Alex-Ferreira-Santos\\projetohotsite\\Hotsite.csproj",
         "projectName": "Hotsite",
-        "projectPath": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\projetohotsite\\Hotsite.csproj",
+        "projectPath": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\exercicio-1-Alex-Ferreira-Santos\\projetohotsite\\Hotsite.csproj",
         "packagesPath": "C:\\Users\\Casa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\projetohotsite\\obj\\",
+        "outputPath": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\exercicio-1-Alex-Ferreira-Santos\\projetohotsite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Casa\\AppData\\Roaming\\NuGet\\NuGet.Config"

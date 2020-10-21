@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F3xfF9Ab8oHSS0x87QUyeHKJep/W/w1GHi/ycN87qebGSJaOmfCJ2gYEcf/KhnisOn69JaVad4/CJrBi05kbXg==",
+  "dgSpecHash": "Oi6aY6Pt5ozhD/8ZUIAgxLS1lYU3CULOP7Q+FFSYzcCjPwO4WRIeZI41y+M+RmrC9jMAVFBd9lhyfMIUzMnnug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\projetohotsite\\Hotsite.csproj",
+  "projectFilePath": "C:\\Users\\Casa\\OneDrive\\Documents\\curso senac\\UC-6\\exercicio-1-Alex-Ferreira-Santos\\projetohotsite\\Hotsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Casa\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Casa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

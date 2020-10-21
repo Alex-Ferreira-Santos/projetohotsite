@@ -31,7 +31,7 @@ namespace Hotsite.Controllers
             return View("Index",cad);
         }
 
-        public IActionResult Agenda(){
+        public IActionResult _Agenda(){
             return PartialView();
         }
 
