@@ -17,7 +17,12 @@
     max-height: 85vh;
     border: solid 1px black;
     z-index: 1;
-    background: fixed white;
+    background: white;
+}
+#set{
+    width: 100%;
+    background: white;
+    padding-bottom: 1em;
 }
 #dados{
     text-align: left;

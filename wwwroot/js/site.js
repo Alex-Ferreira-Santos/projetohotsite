@@ -3,9 +3,15 @@
 
 
 document.getElementById("linkAgenda").addEventListener("click",()=>{
-    document.querySelector("body").style.backgroundColor = "rgba(0,0,0,0.5)"
-    document.querySelector("body").style.opacity = 0.5
+    document.querySelector("body").style.background = "rgba(0,0,0,0.5)"
     document.getElementById("fieldset-agenda").style.display = "initial"
-    document.getElementById("fieldset-agenda").style.opacity = 2
-    document.getElementById("fieldset-agenda").style.backgroundColor = "rgba(255,255,255)"
+    document.getElementById("fieldset-agenda").style.background = "rgb(255,255,255)"
+    document.querySelector("header,main,footer").style.opacity = 0.5
+    document.querySelector("img").style.opacity = 0.5
+    document.querySelector("#div-links").style.opacity = 0.5
+    document.querySelector("form").style.opacity = 0.5
+    document.querySelector("#fieldset-agenda").style.opacity = 1
+    document.querySelector("body").style.overflow = "hidden"
 })
+
+
