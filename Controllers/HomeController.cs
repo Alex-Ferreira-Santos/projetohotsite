@@ -35,5 +35,12 @@ namespace Hotsite.Controllers
             return PartialView();
         }
 
+        public IActionResult _Apoiadores(){
+            return PartialView();
+        }
+
+        public IActionResult _Dicas(){
+            return PartialView();
+        }
     }
 }
