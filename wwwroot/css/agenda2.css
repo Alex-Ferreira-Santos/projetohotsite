@@ -17,11 +17,13 @@
     max-height: 85vh;
     border: solid 1px black;
     z-index: 1;
+    background: fixed white;
 }
 #dados{
     text-align: left;
     margin: 2em auto;
     width:50%;
+    background-color: white;
 }
 @media (min-width:700px){
     #fieldset-agenda{

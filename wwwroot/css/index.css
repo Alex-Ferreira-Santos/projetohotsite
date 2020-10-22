@@ -28,7 +28,6 @@ fieldset{
     width: 70%;
     height: 60%;
 }
-
 @media(min-width: 570px){
     #img-link{
         width: 50%;
