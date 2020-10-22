@@ -126,3 +126,5 @@ C:\Users\Casa\OneDrive\Documents\curso senac\UC-6\exercicio-1-Alex-Ferreira-Sant
 C:\Users\Casa\OneDrive\Documents\curso senac\UC-6\exercicio-1-Alex-Ferreira-Santos\projetohotsite\obj\Debug\netcoreapp3.0\Hotsite.dll
 C:\Users\Casa\OneDrive\Documents\curso senac\UC-6\exercicio-1-Alex-Ferreira-Santos\projetohotsite\obj\Debug\netcoreapp3.0\Hotsite.pdb
 C:\Users\Casa\OneDrive\Documents\curso senac\UC-6\exercicio-1-Alex-Ferreira-Santos\projetohotsite\obj\Debug\netcoreapp3.0\Hotsite.genruntimeconfig.cache
+C:\Users\Casa\OneDrive\Documents\curso senac\UC-6\exercicio-1-Alex-Ferreira-Santos\projetohotsite\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Apoiadores.cshtml.g.cs
+C:\Users\Casa\OneDrive\Documents\curso senac\UC-6\exercicio-1-Alex-Ferreira-Santos\projetohotsite\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Dicas.cshtml.g.cs

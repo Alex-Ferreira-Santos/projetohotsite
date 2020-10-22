@@ -5,9 +5,9 @@
     position: absolute;
     right: 0em;
 }
-#fieldset-agenda{
-    position: fixed;
+#fieldset-apoiadores{
     left: 10%;
+    position: fixed;
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 20px;
@@ -18,14 +18,27 @@
     max-height: 90vh;
     border: solid 1px black;
 }
-#dados{
+#apoiadores{
+    display: flex;
+    background-color: #dee2e6;
     text-align: left;
     margin: 2em auto;
-    width:50%;
+    width:80%;
+}
+#empresa{
+    width: 50%;
+}
+#descricao{
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
 }
 @media (min-width:700px){
-    #fieldset-agenda{
+    #fieldset-apoiadores{
         width: 50%;
         left: 25%;
+    }
+    #apoiadores{
+        width: 60%;
     }
 }
