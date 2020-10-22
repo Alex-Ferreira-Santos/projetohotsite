@@ -13,10 +13,10 @@
     border-radius: 20px;
     text-align: center;
     margin: auto;
-    margin-top: 2em;
     width: 75%;
-    max-height: 90vh;
+    max-height: 85vh;
     border: solid 1px black;
+    z-index: 1;
 }
 #dados{
     text-align: left;

@@ -32,10 +32,12 @@ namespace Hotsite.Controllers
                 dbs.CadastraInteresse(cad);
                 return View("Index",cad);
             }
-            catch (System.Exception)
+            catch (Exception e)
             {
-                _logger.LogInformation($"Erro na tentativa de cadastro, ERRO: {System.Exception}");
-                return View("Index")
+                _logger.LogError($"Erro na tentativa de cadastro, ERRO: {e.Message}");
+                ViewBag.Track = e.StackTrace;
+                ViewBag.Message = e.Message;
+                return View("Erro");
             }
         }
 

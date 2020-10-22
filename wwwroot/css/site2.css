@@ -12,6 +12,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
+  cursor: pointer;
   color: #0366d6;
 }
 

@@ -2,7 +2,8 @@
 @{
     ViewData["Title"] = "Hotsite";
 }
-<link rel="stylesheet" href="~/css/index2.css">
+<link rel="stylesheet" href="~/css/index.css">
+@await Html.PartialAsync("_Agenda")
 <section class="col-sm-5 w-50">
     <h1>Iniciativa Saúde da Cidade</h1>
     <p>
@@ -22,15 +23,15 @@
     <form action="/Home/Cadastrar" class="form-horizontal" method="POST">
         <div class="form-group">
             <label asp-for="Nome">Nome:</label>
-            <input asp-for="Nome" class="form-control" placeholder="Digite seu nome aqui"/>
+            <input asp-for="Nome" class="form-control" required placeholder="Digite seu nome aqui"/>
         </div>
         <div class="form-group">
             <label asp-for="Email">Email:</label>
-            <input asp-for="Email" class="form-control" placeholder="Digite seu email aqui" />
+            <input asp-for="Email" class="form-control" required placeholder="Digite seu email aqui" />
         </div>
         <div class="form-group">
             <label asp-for="Mensagem">Mensagem (opcional):</label>
-            <textarea asp-for="Mensagem" class="form-control" placeholder="Digite sua mensagem aqui"></textarea>
+            <textarea asp-for="Mensagem" class="form-control" required placeholder="Digite sua mensagem aqui"></textarea>
         </div>
         <div class="d-flex">
             <input type="submit" class="btn btn-primary" value="Enviar" />
@@ -46,15 +47,15 @@
     <div id="div-links">
         <div class="d-flex flex-column" id="div-agenda">
             <img src="~/images/agenda-de-eventos.png" alt="agenda-de-eventos" id="agenda" class="rounded img-fluid mt-1">
-            <a href="#">Agenda de eventos</a>
+            <a style="color: #0366d6;">Agenda de eventos</a>
         </div>
         <div class="d-flex flex-column" id="div-dicas">
             <img src="~/images/vida-saudavel.jpg" alt="dicas-de-vida-saudavel" id="dicas" class="rounded img-fluid">
-            <a href="#">Dicas de vida saudável</a>
+            <a style="color: #0366d6;">Dicas de vida saudável</a>
         </div>
         <div class="d-flex flex-column" id="div-apoiadores">
             <img src="~/images/apoiadores.jpg" alt="apoiadores" id="apoiadores" class="rounded img-fluid">
-            <a href="#">Apoiadores</a>
+            <a style="color: #0366d6;">Apoiadores</a>
         </div>
     </div>
 </section>

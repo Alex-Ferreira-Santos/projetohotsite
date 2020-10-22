@@ -34,7 +34,7 @@ namespace Hotsite
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Home/Erro");
             }
             app.UseStaticFiles();
 

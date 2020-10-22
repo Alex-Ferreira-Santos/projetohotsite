@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Erro";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="~/css/erro.css">
+<h1 class="text-center m-3">
+    Ops :( , Um Erro Ocorreu durante o processo
+</h1>
+<h4>Mensagem do erro:</h4>
+<p>@ViewBag.Message</p> 
+<h4>Local onde ocorreu:</h4>
+<p>@ViewBag.Track</p>
+<a asp-action="Index" class="text-center">Voltar a pagina principal</a>
