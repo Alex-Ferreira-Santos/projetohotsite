@@ -30,27 +30,18 @@ namespace Hotsite.Controllers
             {
                 DatabaseService dbs = new DatabaseService();
                 dbs.CadastraInteresse(cad);
+                ViewBag.Mensagem = 1;
                 return View("Index",cad);
             }
             catch (Exception e)
             {
-                _logger.LogError($"Erro na tentativa de cadastro, ERRO: {e.Message}");
+                _logger.LogWarning("Erro na tentativa de cadastro, tente novamente mais tarde");
+                _logger.LogError($"ERRO: {e.Message}");
                 ViewBag.Track = e.StackTrace;
                 ViewBag.Message = e.Message;
                 return View("Erro");
             }
         }
 
-        public IActionResult _Agenda(){
-            return PartialView();
-        }
-
-        public IActionResult _Apoiadores(){
-            return PartialView();
-        }
-
-        public IActionResult _Dicas(){
-            return PartialView();
-        }
     }
 }

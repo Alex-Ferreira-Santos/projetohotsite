@@ -62,3 +62,10 @@
     </div>
 </section>
 <script src="~/js/index.js"></script>
+@if(ViewBag.Mensagem!=null){
+    @if(ViewBag.Mensagem==1){
+        <script>
+            alert("Cadastro realizado com sucesso")
+        </script>
+    }
+}
