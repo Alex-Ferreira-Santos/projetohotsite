@@ -24,7 +24,7 @@
     background: white;
     padding-bottom: 1em;
 }
-#apoiadores{
+#apoiador{
     display: flex;
     background-color: #dee2e6;
     text-align: left;
@@ -44,7 +44,7 @@
         width: 50%;
         left: 25%;
     }
-    #apoiadores{
+    #apoiador{
         width: 60%;
     }
 }

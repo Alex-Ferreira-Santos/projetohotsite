@@ -24,4 +24,4 @@ function aparecePopUp(link,fieldset,button){
 }
 aparecePopUp("linkAgenda","#fieldset-agenda","button")
 aparecePopUp("linkDicas","#fieldset-dicas","button1")
-
+aparecePopUp("linkApoiadores","#fieldset-apoiadores","button2")
