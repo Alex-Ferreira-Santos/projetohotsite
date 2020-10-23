@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-#button{
+#button1{
     position: absolute;
     right: 0em;
 }
@@ -13,12 +13,18 @@
     border-radius: 20px;
     text-align: center;
     margin: auto;
-    margin-top: 2em;
     width: 75%;
-    max-height: 90vh;
+    max-height: 85vh;
     border: solid 1px black;
+    z-index: 1;
+    background: white;
 }
-#dicas{
+#set{
+    width: 100%;
+    background: white;
+    padding-bottom: 1em;
+}
+#dica{
     display: flex;
     text-align: left;
     margin: 2em auto;
@@ -29,7 +35,7 @@
         width: 50%;
         left: 25%;
     }
-    #dicas{
+    #dica{
         width: 60%;
     }
 }
